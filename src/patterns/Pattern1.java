@@ -1,0 +1,15 @@
+package patterns;
+
+
+public class Pattern1 {
+    public static void main(String[] args) {
+        for (int i = 0; i < 4; i++) {
+            int count = 0;
+            for (int j = 0; j < 4; j++){
+                System.out.print(++count);
+            }
+            System.out.println();
+
+        }
+    }
+}
